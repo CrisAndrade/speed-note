@@ -1,19 +1,36 @@
+body {
+    background-color: white;
+}
+
 .add-button {
     position: fixed;
     right: 0;
     bottom: 0;
+    background-color: rgb(86, 186, 237);
+    box-shadow: 0px 2px 1px 2px rgba(95,186,233,0.4);
+    border-radius: 100%;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.box {
-    float: left;
-    margin: 15px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.151);
-    padding: 10px;
-    width: 250px;
+.search-button {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(86, 186, 237);
+    box-shadow: 0px 2px 1px 2px rgba(95,186,233,0.4);
+    border-radius: 100%;
+    margin: 25px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
+    opacity: 0.5;
     cursor: pointer;
     float: right;
     background-color: transparent;
@@ -23,14 +40,41 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 8px;
 }
 
-.edit-icon {
-    width: 25px;
+button:hover {
+    border-radius: 100%;
+    background-color: rgb(221, 221, 221);
+}
+
+.box {
+    float: left;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.151);
+    padding: 15px;
+    width: 300px;
+}
+
+.box:hover button{
+    opacity: 1;
+}
+
+.button-icon {
+    width: 20px;
 }
 
 .title {
-    margin: 2px;
-    padding-bottom: 2px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+    margin-bottom: 10px;
+}
+
+.note {
+    width: 100%;
+    height: 300px;
+    border: none;
+    outline: 0;
+    font-family: "Varela Round", sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
 }

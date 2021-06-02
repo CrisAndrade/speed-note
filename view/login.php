@@ -1,5 +1,6 @@
 <?php session_start() ?>
 
+<title>Speed Note</title>
 <link rel="stylesheet" href="_css/login.css">
 <link rel="stylesheet" href="_css/basic.css">
 

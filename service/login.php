@@ -22,6 +22,8 @@
     header('Location: ../view/login.php');
     exit();
   }
+
+  #LOGIN
   if($row >= 1) {
     mysqli_close($connection);
     $_SESSION['email-user'] = $email;
@@ -29,7 +31,7 @@
     exit();
   }
 
-  #REGISTER
+  #NÃO ENCONTRADO
   mysqli_close($connection);
   $_SESSION['message'] = $USER_NOT_EXIST;
   header('Location: ../view/login.php');

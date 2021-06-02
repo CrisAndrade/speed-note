@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+}
+
+form {
+    margin: 15px;
+    width: 600px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.151);
+}
+
+.title {
+    width: 580px;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    outline: 0;
+    font-weight: bold;
+    font-family: "Varela Round", sans-serif;
+}
+
+.note {
+    margin-top: 10px;
+    width: 580px;
+    height: 400px;
+    border: none;
+    padding: 10px;
+    outline: 0;
+    font-family: "Varela Round", sans-serif;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.021);
+    border-radius: 10px;
+}
+
+.buttons {
+    width: 600px;
+}
+
+.justify-content {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    background-color: #39ace7;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    width: 65px;
+}
