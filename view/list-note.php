@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="_css/basic.css">
 <link rel="stylesheet" href="_css/list-note.css">
 <a class="add-button" href="register-note.php"><img src="../souce/mais-icon.png" width="25" alt=""></a>
-<a class="search-button" href="register-note.php"><img src="../souce/pesquisar-icon.png" width="25" alt=""></a>
+<!-- <a class="search-button" href="register-note.php"><img src="../souce/pesquisar-icon.png" width="25" alt=""></a> -->
 
 <?php 
   session_start();

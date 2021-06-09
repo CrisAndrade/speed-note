@@ -6,5 +6,4 @@ if(isset($_SESSION['email-user'])){
     exit();
 }
 header('Location: /view/login.php');
-
 ?>
